@@ -27,8 +27,8 @@ else:
 
 # 3. Check Library Metadata and Locations
 print("-" * 30)
-print(f"Evox location:     {evox.__file__}")
-print(f"Evox version:      {importlib.metadata.version('evox')}")
+print(f"EvoX location:     {evox.__file__}")
+print(f"EvoX version:      {importlib.metadata.version('evox')}")
 print(f"Brax version:      {importlib.metadata.version('brax')}")
 print(f"MuJoCo version:    {importlib.metadata.version('mujoco')}")
 

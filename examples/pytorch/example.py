@@ -34,7 +34,7 @@ problem = Sphere()
 # Monitor for tracking best fitness
 monitor = EvalMonitor(full_sol_history=False)
 
-# Initialize standard workflow (no meta-wrapper needed)
+# Initialize standard workflow
 workflow = StdWorkflow(
     algorithm=algorithm,
     problem=problem,

@@ -117,6 +117,12 @@ Depending on which backend you plan to use (JAX or PyTorch), you should install 
 ```bash
   pip install git+https://github.com/EMI-Group/evox.git@v1.1.1
 ```
+### Environment Verification
+Once the installation is complete, you can verify your library versions and GPU availability by running the provided environment check script:
+```bash
+python show_env.py
+```
+This script will confirm if your hardware is correctly recognized, ensuring iStratDE can leverage its communication-free design for fully parallel updates.
 
 ## Components
 

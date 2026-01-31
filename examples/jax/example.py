@@ -30,7 +30,7 @@ problem = Sphere()
 # Monitor for tracking best fitness
 monitor = StdSOMonitor(record_fit_history=False)
 
-# Initialize standard workflow (no meta-wrapper needed)
+# Initialize standard workflow
 workflow = StdWorkflow(
     algorithm=algorithm,
     problem=problem,
