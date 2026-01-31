@@ -15,7 +15,7 @@
 
 [//]: # (  <a href="https://arxiv.org/abs/2502.10470">)
 
-[//]: # (    <img src="https://img.shields.io/badge/paper-arxiv-red?style=for-the-badge" alt="MetaDE Paper on arXiv">)
+[//]: # (    <img src="https://img.shields.io/badge/paper-arxiv-red?style=for-the-badge" alt="iStratDE Paper on arXiv">)
 
 [//]: # (  </a>)
 </h2>
@@ -172,7 +172,7 @@ problem = Sphere()
 # Monitor for tracking best fitness
 monitor = StdSOMonitor(record_fit_history=False)
 
-# Initialize standard workflow (no meta-wrapper needed)
+# Initialize standard workflow
 workflow = StdWorkflow(
     algorithm=algorithm,
     problem=problem,
