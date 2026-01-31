@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "istratde"
+version = "0.1.0"
+authors = [
+  { name = "Chenchen Feng", email = "chenchenfengcn@gmail.com" },
+]
+description = "istratde"
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+  "Intended Audience :: Science/Research",
+  "Topic :: Scientific/Engineering :: Artificial Intelligence",
+]
+
+dependencies = [
+  "torch >= 2.5.0",
+  "evox == 1.1.1",
+  "jax == 0.4.33",
+  "jaxlib == 0.4.33",
+  "numpy >= 1.22, < 2.0.0",
+]
+
+[project.optional-dependencies]
+
+neuroevolution = [
+  "brax == 0.12.1",
+  "mujoco == 3.2.7",
+  "flax >= 0.8.0",
+]
+
+test = [
+  "brax == 0.12.1",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/EMI-Group/istratde"
+"Bug Tracker" = "https://github.com/EMI-Group/istratde/issues"
