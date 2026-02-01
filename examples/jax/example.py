@@ -17,7 +17,7 @@ STEPS = 1000
 lb = jnp.full((D,), -100.0)
 ub = jnp.full((D,), 100.0)
 
-# Initialize iStratDE (Self-adaptive algorithm)
+# Initialize iStratDE
 algorithm = IStratDE(
     lb=lb,
     ub=ub,

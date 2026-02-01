@@ -21,7 +21,7 @@ torch.set_default_device(device)
 lb = -100 * torch.ones(D)
 ub = 100 * torch.ones(D)
 
-# Initialize iStratDE (Self-adaptive algorithm)
+# Initialize iStratDE
 algorithm = IStratDE(
     lb=lb,
     ub=ub,

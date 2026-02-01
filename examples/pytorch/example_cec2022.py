@@ -25,7 +25,7 @@ for problem_number in range(1, 13):
     lb = -100 * torch.ones(D)
     ub = 100 * torch.ones(D)
 
-    # Initialize IStratDE (Self-adaptive algorithm)
+    # Initialize IStratDE
     # No HPO wrapper needed, it learns parameters automatically
     algorithm = IStratDE(
         pop_size=POP_SIZE,
