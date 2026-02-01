@@ -337,8 +337,14 @@ print(f"Best fitness: {monitor.get_best_fitness()}")
 - Engage in discussions and share your experiences on [GitHub Discussion Board](https://github.com/EMI-Group/evox/discussions).
 - Join our QQ group (ID: 297969717).
 
-[//]: # (## Citing iStratDE)
-
-[//]: # (```)
-
-[//]: # (```)
+## Citing iStratDE
+```
+@ARTICLE{istratde2026,
+  author={Feng, Chenchen and Chen, Minyang and Li, Zhuozhao and Cheng, Ran},
+  journal={IEEE Transactions on Evolutionary Computation}, 
+  title={Unleashing the Potential of Differential Evolution through Individual-Level Strategy Diversity}, 
+  year={2026},
+  pages={1-1},
+  keywords={Vectors;Convergence;Optimization;Arithmetic;Tuning;Synchronization;Evolutionary computation;Concurrent computing;Computer science;Benchmark testing;Differential Evolution;Population Diversity;GPU Computing},
+  doi={10.1109/TEVC.2026.3659799}}
+```
