@@ -131,7 +131,7 @@ iStratDE attains behavioral richness by assigning a unique, immutable strategy p
 
 - **Combinatorial Diversity**: A pool of 192 distinct configurations is formed by combining various base vectors, differential vector counts, and crossover schemes.
 - **Fixed Assignments**: Strategies and control parameters (F, CR) are assigned once and remain fixed throughout the evolution, ensuring persistent structural diversity across the population.
-<img src="./assets/framework.png" alt="iStratDE Framework" width="90%">
+<img src="./assets/framework.png" alt="iStratDE Framework" width="60%">
 
 ### GPU Acceleration
 iStratDE is fully integrated with the EvoX framework. By utilizing a communication-free design, it achieves high hardware utilization on both JAX and PyTorch backends, making it possible to scale to massive populations for complex, high-dimensional black-box optimization.
