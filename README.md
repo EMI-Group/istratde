@@ -20,8 +20,7 @@
 [//]: # (  </a>)
 </h2>
 
-iStratDE is a minimalist yet powerful Differential Evolution (DE) variant that achieves superior performance through individual-level strategy diversity. Unlike traditional adaptive DEs that adjust strategies at the population level via feedback, iStratDE assigns mutation and crossover strategies—along with their control parameters—randomly and independently to each individual at initialization. These configurations remain fixed, cultivating persistent behavioral heterogeneity that effectively mitigates premature convergence, especially in large-population and high-dimensional settings.
-
+iStratDE is a minimalist yet powerful Differential Evolution (DE) variant that achieves superior performance through individual-level strategy diversity. Unlike traditional adaptive DEs that adjust strategies at the population level via feedback, iStratDE assigns mutation and crossover strategies along with their respective control parameters randomly and independently to each individual during initialization. These fixed configurations cultivate persistent behavioral heterogeneity, which effectively mitigates premature convergence, particularly in large-population and high-dimensional settings.
 
 Designed with a communication-free architecture, iStratDE possesses intrinsic concurrency that maps naturally to GPU computing, enabling massive parallelism without synchronization bottlenecks. iStratDE is fully integrated into the <a href="https://github.com/EMI-Group/evox">EvoX</a> framework.
 > **Backend Support**:
