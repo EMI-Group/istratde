@@ -101,7 +101,7 @@ Depending on which backend you plan to use (JAX or PyTorch), you should install 
 ## Installation
 ### Best Practice:
 ```bash
-  pip install \
+pip install \
   "jax[cuda12]==0.4.33" \
   "brax==0.12.1" \
   "mujoco==3.2.7" \
@@ -112,10 +112,10 @@ Depending on which backend you plan to use (JAX or PyTorch), you should install 
   -f https://storage.googleapis.com/jax-releases/jax_cuda_releases.html
 ```
 ```bash
-  pip install torch --index-url https://download.pytorch.org/whl/cu121
+pip install torch --index-url https://download.pytorch.org/whl/cu121
 ```
 ```bash
-  pip install git+https://github.com/EMI-Group/evox.git@v1.1.1
+pip install git+https://github.com/EMI-Group/evox.git@v1.1.1
 ```
 ### Environment Verification
 Once the installation is complete, you can verify your library versions and GPU availability by running the provided environment check script:
@@ -131,7 +131,7 @@ iStratDE attains behavioral richness by assigning a unique, immutable strategy p
 
 - **Combinatorial Diversity**: A pool of 192 distinct configurations is formed by combining various base vectors, differential vector counts, and crossover schemes.
 - **Fixed Assignments**: Strategies and control parameters (F, CR) are assigned once and remain fixed throughout the evolution, ensuring persistent structural diversity across the population.
-<img src="./assets/framework.png" alt="iStratDE Framework" width="60%">
+<img src="./assets/framework.png" alt="iStratDE Framework" width="55%">
 
 ### GPU Acceleration
 iStratDE is fully integrated with the EvoX framework. By utilizing a communication-free design, it achieves high hardware utilization on both JAX and PyTorch backends, making it possible to scale to massive populations for complex, high-dimensional black-box optimization.
@@ -346,5 +346,6 @@ print(f"Best fitness: {monitor.get_best_fitness()}")
   year={2026},
   pages={1-1},
   keywords={Vectors;Convergence;Optimization;Arithmetic;Tuning;Synchronization;Evolutionary computation;Concurrent computing;Computer science;Benchmark testing;Differential Evolution;Population Diversity;GPU Computing},
-  doi={10.1109/TEVC.2026.3659799}}
+  doi={10.1109/TEVC.2026.3659799}
+  }
 ```
