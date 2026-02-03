@@ -12,12 +12,9 @@
 
 <h2 align="center">
   <p>🌟 Unleashing the Potential of Differential Evolution through Individual-Level Strategy Diversity 🌟</p>
-
-[//]: # (  <a href="https://arxiv.org/abs/2502.10470">)
-
-[//]: # (    <img src="https://img.shields.io/badge/paper-arxiv-red?style=for-the-badge" alt="iStratDE Paper on arXiv">)
-
-[//]: # (  </a>)
+  <a href="https://arxiv.org/abs/2602.01147">
+    <img src="https://img.shields.io/badge/paper-arxiv-red?style=for-the-badge" alt="iStratDE Paper on arXiv">
+  </a>
 </h2>
 
 iStratDE is a minimalist yet powerful Differential Evolution (DE) variant that achieves superior performance through individual-level strategy diversity. Unlike traditional adaptive DEs that adjust strategies at the population level via feedback, iStratDE assigns mutation and crossover strategies along with their respective control parameters randomly and independently to each individual during initialization. These fixed configurations cultivate persistent behavioral heterogeneity, which effectively mitigates premature convergence, particularly in large-population and high-dimensional settings.
