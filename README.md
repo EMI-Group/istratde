@@ -1,14 +1,10 @@
 <h1 align="center">
-  <a href="https://github.com/EMI-Group/evox">
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="./assets/evox_brand_dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="./assets/evox_brand_light.svg">
-      <img alt="EvoX Logo" height="50" src="./assets/evox_brand_dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./assets/evox_brand_dark.svg">
+    <img alt="EvoX Logo" height="128" width="500px" src="./assets/evox_brand_dark.svg">
   </picture>
-  </a>
-  <br>
 </h1>
-
 
 <h2 align="center">
   <p>🌟 Unleashing the Potential of Differential Evolution through Individual-Level Strategy Diversity 🌟</p>
